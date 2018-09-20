@@ -50,6 +50,9 @@
         font-weight: 550;
         font-size: 14px;
     }
+    .intro-name{
+        font-size: 20px;
+    }
     .avatar {
         /* width: 10%; */
         width: 120px !important;

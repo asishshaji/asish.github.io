@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://mrkai1253.github.io/portfolio",
+  "dependencies": {
+    "antd": "^3.8.2",
+    "axios": "^0.18.0",
+    "rc-progress": "^2.2.5",
+    "react": "^16.4.2",
+    "react-circular-progressbar": "^1.0.0",
+    "react-dom": "^16.4.2",
+    "react-percentage-circle": "^1.1.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^1.2.1",
+    "react-typist": "^2.0.4",
+    "semantic-ui-css": "^2.3.3",
+    "styled-components": "^3.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+.container {
+    background: #ffffff;
+    display: block;
+    min-width: 200px;
+    padding: 4em;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.intro-name {
+    color: #000000;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 16px;
+    color: #21242c;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: 'Space Mono', monospace;
+    /* widows: 85%; */
+    display: block;
+    max-width: 700px;
+    padding: 0 10px;
+    margin: 18px auto;
+}
+
+.about-me {
+    columns: #666666;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    word-wrap: normal;
+    letter-spacing: 1px;
+}
+.expl{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me {
+        font-weight: 550;
+        font-size: 14px;
+    }
+    .avatar {
+        /* width: 10%; */
+        width: 120px !important;
+        /* you can use % */
+        height: 120px !important;
+    }
+
+  
+ 
+}

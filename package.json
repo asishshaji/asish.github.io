@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mrkai1253.github.io/portfolio",
+  "homepage": "http://mrkai1253.github.io",
   "dependencies": {
     "antd": "^3.8.2",
     "axios": "^0.18.0",

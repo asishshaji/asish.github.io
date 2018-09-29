@@ -1,25 +1,22 @@
 import React from 'react';
-import {Line, Circle} from 'rc-progress';
-import {Icon} from 'antd';
+
+import './Skills.css';
+import SkillsInd from './Skills-ind';
 
 const Skills = () => {
-  return (
-      <div className="test">
-
-      <h1 className='title'>Skills</h1>
-      <div
-        style={{
-        margin: 10,
-        width: 100,
-        alignContent: 'center'
-      }}>
-
-        <img src = "https://www.materialui.co/materialIcons/action/android_black_54x54.png"/>
-
-        <Circle percent="75" strokeWidth="4" strokeColor="rgba(0, 0, 0, 0.65)"></Circle>
-      </div>
-    </div>
-  )
+    return (
+        <div className='skills'>
+            <h1 className='title'>Skills</h1>
+            <div className="grid">
+                <SkillsInd perc='60' frame_name='React'/>
+                <SkillsInd perc='80' frame_name='Android'/>
+                <SkillsInd perc='90' frame_name='Python'/>
+                <SkillsInd perc='80' frame_name='Django'/>
+                <SkillsInd perc='50' frame_name='Nodejs'/>
+                <SkillsInd perc='40' frame_name='Solidity'/>
+            </div>
+        </div>
+    )
 
 }
 

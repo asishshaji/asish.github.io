@@ -65,7 +65,7 @@ export default class Projects extends Component {
             description={data.description}/>
         </Card>
       });
-      setInterval(() =>(this.setState({repos: repos, loading: false, repos_data: res_json})),1000);
+      setInterval(() =>(this.setState({repos: repos, loading: false, repos_data: res_json})),2000);
       
 
     });
